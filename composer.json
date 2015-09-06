@@ -1,0 +1,29 @@
+{
+    "name": "kwiercioch/kw-user",
+    "description": "User",
+    "require": {
+        "php": ">=5.3",
+        "zendframework/zendframework": "2.2.*",
+        "doctrine/doctrine-module": "0.8.*",
+        "doctrine/doctrine-orm-module": "0.8.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Krzysztof Wiercioch",
+            "email": "wiercik6@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "Application": "module/Application/src"
+        },
+        "psr-4": {
+            "KwUser\\": "src"
+        }
+    }
+}
